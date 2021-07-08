@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VerifyErrorReproProject", "VerifyErrorReproProject\VerifyErrorReproProject.vbproj", "{8BA3ED8A-F272-46CC-81CB-6D7E5E522BA7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VerifyErrorReproProjectTest", "VerifyErrorReproProjectTest\VerifyErrorReproProjectTest.vbproj", "{D010D172-2DB3-41E5-B062-8FA1A1BA6D03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BA3ED8A-F272-46CC-81CB-6D7E5E522BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA3ED8A-F272-46CC-81CB-6D7E5E522BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA3ED8A-F272-46CC-81CB-6D7E5E522BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA3ED8A-F272-46CC-81CB-6D7E5E522BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D010D172-2DB3-41E5-B062-8FA1A1BA6D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D010D172-2DB3-41E5-B062-8FA1A1BA6D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D010D172-2DB3-41E5-B062-8FA1A1BA6D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D010D172-2DB3-41E5-B062-8FA1A1BA6D03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DC8AC60-1F63-4ACB-A165-3AA055474DC4}
+	EndGlobalSection
+EndGlobal
