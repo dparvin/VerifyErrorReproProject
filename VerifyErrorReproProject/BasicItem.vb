@@ -12,4 +12,9 @@ Public Class BasicItem
     Public Property Type As Integer
     Public Property Setting As XElement
 
+    Public Overrides Function ToString() As String
+
+        Return $"Name = ""{Name}"", Type = {Type}, Setting = {Setting}"
+
+    End Function
 End Class

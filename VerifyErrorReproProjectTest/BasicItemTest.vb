@@ -33,6 +33,8 @@ Public Class BasicItemTest
 
         Verify(obj, Settings)
 
+        Output.WriteLine("obj: " & obj.ToString())
+
     End Sub
 
 End Class
