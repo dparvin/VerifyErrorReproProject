@@ -31,7 +31,7 @@ Public Class BasicItemTest
             .Setting.Add(New XElement("TestItem"))
         End With
 
-        Verify(obj)
+        Verify(obj, Settings)
 
     End Sub
 
