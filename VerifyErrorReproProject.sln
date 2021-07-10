@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VerifyErrorReproProject", "VerifyErrorReproProject\VerifyErrorReproProject.vbproj", "{8BA3ED8A-F272-46CC-81CB-6D7E5E522BA7}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VerifyErrorReproProjectTest", "VerifyErrorReproProjectTest\VerifyErrorReproProjectTest.vbproj", "{D010D172-2DB3-41E5-B062-8FA1A1BA6D03}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VerifyErrorReproProjectTest", "VerifyErrorReproProjectTest\VerifyErrorReproProjectTest.vbproj", "{6B1D8591-8420-4485-A430-7901A05C8888}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{8BA3ED8A-F272-46CC-81CB-6D7E5E522BA7}.Debug|x64.Build.0 = Debug|x64
 		{8BA3ED8A-F272-46CC-81CB-6D7E5E522BA7}.Release|x64.ActiveCfg = Release|x64
 		{8BA3ED8A-F272-46CC-81CB-6D7E5E522BA7}.Release|x64.Build.0 = Release|x64
-		{D010D172-2DB3-41E5-B062-8FA1A1BA6D03}.Debug|x64.ActiveCfg = Debug|x64
-		{D010D172-2DB3-41E5-B062-8FA1A1BA6D03}.Debug|x64.Build.0 = Debug|x64
-		{D010D172-2DB3-41E5-B062-8FA1A1BA6D03}.Release|x64.ActiveCfg = Release|x64
-		{D010D172-2DB3-41E5-B062-8FA1A1BA6D03}.Release|x64.Build.0 = Release|x64
+		{6B1D8591-8420-4485-A430-7901A05C8888}.Debug|x64.ActiveCfg = Debug|x64
+		{6B1D8591-8420-4485-A430-7901A05C8888}.Debug|x64.Build.0 = Debug|x64
+		{6B1D8591-8420-4485-A430-7901A05C8888}.Release|x64.ActiveCfg = Release|x64
+		{6B1D8591-8420-4485-A430-7901A05C8888}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
