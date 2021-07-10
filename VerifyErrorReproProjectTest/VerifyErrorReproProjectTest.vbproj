@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Verify.Xunit.11.15.1\build\Verify.Xunit.props" Condition="Exists('..\packages\Verify.Xunit.11.15.1\build\Verify.Xunit.props')" />
-  <Import Project="..\packages\Verify.11.15.1\build\Verify.props" Condition="Exists('..\packages\Verify.11.15.1\build\Verify.props')" />
   <Import Project="..\packages\xunit.runner.console.2.4.1\build\xunit.runner.console.props" Condition="Exists('..\packages\xunit.runner.console.2.4.1\build\xunit.runner.console.props')" />
   <Import Project="..\packages\xunit.runner.visualstudio.2.4.3\build\net452\xunit.runner.visualstudio.props" Condition="Exists('..\packages\xunit.runner.visualstudio.2.4.3\build\net452\xunit.runner.visualstudio.props')" />
   <Import Project="..\packages\xunit.core.2.4.1\build\xunit.core.props" Condition="Exists('..\packages\xunit.core.2.4.1\build\xunit.core.props')" />
@@ -72,10 +70,13 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="DiffEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7a34512ecd69090, processorArchitecture=MSIL">
-      <HintPath>..\packages\DiffEngine.6.8.0\lib\net461\DiffEngine.dll</HintPath>
+      <HintPath>..\packages\DiffEngine.6.8.2\lib\net461\DiffEngine.dll</HintPath>
     </Reference>
     <Reference Include="EmptyFiles, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7a34512ecd69090, processorArchitecture=MSIL">
       <HintPath>..\packages\EmptyFiles.2.7.0\lib\net461\EmptyFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="IndexRange, Version=1.0.0.0, Culture=neutral, PublicKeyToken=35e6a3c4212514c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\IndexRange.1.0.0\lib\net471\IndexRange.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
@@ -83,8 +84,8 @@
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.5.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.DiagnosticAdapter, Version=3.1.15.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.DiagnosticAdapter.3.1.15\lib\net461\Microsoft.Extensions.DiagnosticAdapter.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.DiagnosticAdapter, Version=3.1.16.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DiagnosticAdapter.3.1.16\lib\net461\Microsoft.Extensions.DiagnosticAdapter.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.5.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
@@ -107,6 +108,9 @@
     </Reference>
     <Reference Include="System.CodeDom, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.CodeDom.5.0.0\lib\net461\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.5.0.0\lib\net461\System.Collections.Immutable.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Configuration" />
@@ -273,13 +277,13 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="TextCopy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1ca091877d12ca03, processorArchitecture=MSIL">
-      <HintPath>..\packages\TextCopy.4.3.0\lib\net461\TextCopy.dll</HintPath>
+      <HintPath>..\packages\TextCopy.4.3.1\lib\net461\TextCopy.dll</HintPath>
     </Reference>
     <Reference Include="Verify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7a34512ecd69090, processorArchitecture=MSIL">
-      <HintPath>..\packages\Verify.11.15.1\lib\net472\Verify.dll</HintPath>
+      <HintPath>..\packages\Verify.11.20.1\lib\net472\Verify.dll</HintPath>
     </Reference>
     <Reference Include="Verify.Xunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c7a34512ecd69090, processorArchitecture=MSIL">
-      <HintPath>..\packages\Verify.Xunit.11.15.1\lib\net472\Verify.Xunit.dll</HintPath>
+      <HintPath>..\packages\Verify.Xunit.11.20.1\lib\net472\Verify.Xunit.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="xunit.abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
@@ -301,6 +305,19 @@
       <Name>VerifyErrorReproProject</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Nullable\AllowNullAttribute.cs" />
+    <Content Include="Nullable\DisallowNullAttribute.cs" />
+    <Content Include="Nullable\DoesNotReturnAttribute.cs" />
+    <Content Include="Nullable\DoesNotReturnIfAttribute.cs" />
+    <Content Include="Nullable\MaybeNullAttribute.cs" />
+    <Content Include="Nullable\MaybeNullWhenAttribute.cs" />
+    <Content Include="Nullable\MemberNotNullAttribute.cs" />
+    <Content Include="Nullable\MemberNotNullWhenAttribute.cs" />
+    <Content Include="Nullable\NotNullAttribute.cs" />
+    <Content Include="Nullable\NotNullIfNotNullAttribute.cs" />
+    <Content Include="Nullable\NotNullWhenAttribute.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -311,11 +328,7 @@
     <Error Condition="!Exists('..\packages\xunit.runner.visualstudio.2.4.3\build\net452\xunit.runner.visualstudio.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.runner.visualstudio.2.4.3\build\net452\xunit.runner.visualstudio.props'))" />
     <Error Condition="!Exists('..\packages\xunit.runner.console.2.4.1\build\xunit.runner.console.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.runner.console.2.4.1\build\xunit.runner.console.props'))" />
     <Error Condition="!Exists('..\packages\EmptyFiles.2.7.0\build\EmptyFiles.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EmptyFiles.2.7.0\build\EmptyFiles.targets'))" />
-    <Error Condition="!Exists('..\packages\Verify.11.15.1\build\Verify.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Verify.11.15.1\build\Verify.props'))" />
-    <Error Condition="!Exists('..\packages\Verify.11.15.1\build\Verify.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Verify.11.15.1\build\Verify.targets'))" />
-    <Error Condition="!Exists('..\packages\Verify.Xunit.11.15.1\build\Verify.Xunit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Verify.Xunit.11.15.1\build\Verify.Xunit.props'))" />
   </Target>
   <Import Project="..\packages\xunit.core.2.4.1\build\xunit.core.targets" Condition="Exists('..\packages\xunit.core.2.4.1\build\xunit.core.targets')" />
   <Import Project="..\packages\EmptyFiles.2.7.0\build\EmptyFiles.targets" Condition="Exists('..\packages\EmptyFiles.2.7.0\build\EmptyFiles.targets')" />
-  <Import Project="..\packages\Verify.11.15.1\build\Verify.targets" Condition="Exists('..\packages\Verify.11.15.1\build\Verify.targets')" />
 </Project>
